@@ -1,0 +1,13 @@
+mytest: cheese
+metadata:
+  name: jeremy
+  finalizers:
+    - "a finalizer"
+spec:
+  source:
+    targetRevision: v0.34.49
+    helm:
+      parameters:
+        - name: jez
+          value: test
+
